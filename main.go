@@ -1,8 +1,16 @@
 package main
 
-import "aoc/day1"
+import (
+	"aoc/day1"
+	"aoc/day2"
+	"fmt"
+)
 
 func main() {
-	print(int(day1.PairsAndDistances()))
-	print(day1.PairsAndDistancesPart2())
+	fmt.Println("--------- DAY 1 ---------")
+	fmt.Println(day1.Day1Challenge())
+
+	fmt.Println("--------- DAY 2 ---------")
+	fmt.Println(day2.Day2Challenge())
+
 }
